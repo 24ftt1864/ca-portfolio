@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ReplaceSubString {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter your message: ");
+        System.out.println("Enter your message: ");
         String message=input.nextLine();
 
         System.out.print("Enter the substring to replace: ");
@@ -17,7 +17,7 @@ public class ReplaceSubString {
         String replace=input.nextLine();
         String mes=message.replace(sub,replace);
 
-
+        System.out.println("The updated message is: ");
         System.out.print(mes);
 
     }
